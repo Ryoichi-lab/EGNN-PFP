@@ -29,13 +29,13 @@ EGNN×PFPによる物性予測を行います。
 | [`QM9_NMR_13C`](./QM9_NMR_13C) | ¹³C shielding | ¹³C核NMR化学シールディング |
 | [`QM9_NMR_1H`](./QM9_NMR_1H) | ¹H shielding | ¹H核NMR化学シールディング |
 
-各フォルダ構成は概ね以下の通りです。
+各フォルダ構成は以下の通りです。
 
 ```
 QM9_xxx/
-├── README.md           # 物性の詳細・データ件数・結果サマリ
-├── data/                # xyz構造・ラベル等
-├── descriptors/         # PFP記述子
-├── scripts/             # グラフ構築・学習・評価スクリプト
-└── results/             # baseline vs PFP の比較結果（MAE/R²、プロット）
+├── README.md   # 物性の詳細・結果サマリ（出典: 論文Table 3）
+├── scripts/    # グラフ構築・baseline学習・PFP学習・評価スクリプト
+└── results/    # baseline vs PFP の比較結果プロット
 ```
+
+元データ・PFP記述子（256次元）・学習済みグラフ/チェックポイントはサイズの都合上、本リポジトリには含めずローカルでのみ管理しています。
