@@ -2,7 +2,7 @@
 
 **対象物性**: 等方分極率 (α)
 **データセット**: QM9
-**手法**: EGNN（baseline） vs EGNN×PFP記述子
+**手法**: EGNN(baseline) vs EGNN×PFP記述子
 
 ## 結果サマリ
 
@@ -13,7 +13,7 @@
 
 出典: Uchiyama et al., arXiv:2602.03046, Table 3
 
-R²は論文には記載がなく、移植元の自前学習run（baseline: `training_baseline_polarizability_perfect_0115`, best_val_mae=0.0607; PFP: `training_pfp_polarizability_egnn_official_128_attention_perfect_0110`, best_val_mae=0.0596）の `training_results.json` にもR²の記録がないため省略。
+R²は論文には記載がなく、移植元の自前学習run(baseline: `training_baseline_polarizability_perfect_0115`, best_val_mae=0.0607; PFP: `training_pfp_polarizability_egnn_official_128_attention_perfect_0110`, best_val_mae=0.0596)の `training_results.json` にもR²の記録がないため省略。
 
 ## ディレクトリ構成
 

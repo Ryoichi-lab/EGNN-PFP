@@ -2,7 +2,7 @@
 
 **対象物性**: HOMO-LUMOギャップ
 **データセット**: QM9
-**手法**: EGNN（baseline） vs EGNN×PFP記述子
+**手法**: EGNN(baseline) vs EGNN×PFP記述子
 
 ## 結果サマリ
 
@@ -13,7 +13,7 @@
 
 出典: Uchiyama et al., arXiv:2602.03046, Table 3
 
-R²は論文・自前学習run（`training_baseline_HOMO_LUMO_perfect_0113`, `training_pfp_gap_egnn_official_128_perfect_attention_0110`）のtraining_results.jsonいずれにも記載がないため省略。
+R²は論文・自前学習run(`training_baseline_HOMO_LUMO_perfect_0113`, `training_pfp_gap_egnn_official_128_perfect_attention_0110`)のtraining_results.jsonいずれにも記載がないため省略。
 
 ## ディレクトリ構成
 

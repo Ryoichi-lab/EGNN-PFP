@@ -2,7 +2,7 @@
 
 **対象物性**: 自由エネルギー (G)
 **データセット**: QM9
-**手法**: EGNN（baseline） vs EGNN×PFP記述子
+**手法**: EGNN(baseline) vs EGNN×PFP記述子
 
 ## 結果サマリ
 

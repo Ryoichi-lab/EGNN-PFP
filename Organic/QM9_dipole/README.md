@@ -2,7 +2,7 @@
 
 **対象物性**: 双極子モーメント (μ)
 **データセット**: QM9
-**手法**: EGNN（baseline） vs EGNN×PFP記述子
+**手法**: EGNN(baseline) vs EGNN×PFP記述子
 
 ## 結果サマリ
 
@@ -13,7 +13,7 @@
 
 出典: Uchiyama et al., arXiv:2602.03046, Table 3
 
-参考値は scripts/3_train_baseline.py / 4_train_pfp.py による自前学習run（training_baseline_dipole_B3LYP_0115, training_pfp_B3LYP_egnn_official_128_attention_perfect_0115）の training_results.json から。論文本文にはR²の記載はないため省略。
+参考値は scripts/3_train_baseline.py / 4_train_pfp.py による自前学習run(training_baseline_dipole_B3LYP_0115, training_pfp_B3LYP_egnn_official_128_attention_perfect_0115)の training_results.json から。論文本文にはR²の記載はないため省略。
 
 ## ディレクトリ構成
 

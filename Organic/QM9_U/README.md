@@ -2,7 +2,7 @@
 
 **対象物性**: 内部エネルギー 298.15K (U)
 **データセット**: QM9
-**手法**: EGNN（baseline） vs EGNN×PFP記述子
+**手法**: EGNN(baseline) vs EGNN×PFP記述子
 
 ## 結果サマリ
 
@@ -13,7 +13,7 @@
 
 出典: Uchiyama et al., arXiv:2602.03046, Table 3
 
-参考値（自前学習run, test_evaluation/test_results.json より）: EGNN×PFP run（`QM9_u_training_pfp_egnn_128_attention_perfect_0110`）の R² = 0.999998（テストセット, N=12985）。MAE = 10.14 meV で論文値とほぼ一致。
+参考値（自前学習run, test_evaluation/test_results.json より）: EGNN×PFP run(`QM9_u_training_pfp_egnn_128_attention_perfect_0110`)の R² = 0.999998（テストセット, N=12985）。MAE = 10.14 meV で論文値とほぼ一致。
 
 ## ディレクトリ構成
 

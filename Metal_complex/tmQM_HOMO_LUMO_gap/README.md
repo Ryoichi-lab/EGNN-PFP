@@ -2,7 +2,7 @@
 
 **対象物性**: HOMO-LUMOギャップ Δε (eV)
 **データセット**: tmQM（遷移金属錯体、約86,000錯体、TPSSh-D3BJ/def2-SVP、GFN2-xTB構造最適化）
-**手法**: EGNN（baseline） vs EGNN×PFP記述子
+**手法**: EGNN(baseline) vs EGNN×PFP記述子
 
 ## 結果サマリ
 
@@ -38,7 +38,7 @@ tmQM_HOMO_LUMO_gap/
 | `00_import_xyz.py` | tmQM公式xyzファイルから中性一重項構造を抽出（dipoleと共通） |
 | `00_import_bond_order.py` | GFN2-xTB Wiberg bond order ファイルの読み込み（共通） |
 | `00_check_number_of_atoms.py` | 256原子超の大規模分子の検出・抽出（共通） |
-| `01_make_graph_homolumo_gap.py` | baseline/PFP両方のグラフ（PyG Data）を構築 |
+| `01_make_graph_homolumo_gap.py` | baseline/PFP両方のグラフ(PyG Data)を構築 |
 | `02_train_egnn_pfp_homolumo_gap.py` | EGNN×PFP 学習（PFP記述子のみ付加、BOなし版） |
 | `03_train_egnn_baseline_homolumo_gap.py` | EGNN baseline 学習 |
 | `04_add_bond_order_to_graph_homolumo_gap.py` | PFPグラフに bond order エッジ特徴量を追加 |
@@ -47,4 +47,4 @@ tmQM_HOMO_LUMO_gap/
 | `07_evaluate_pfp_homolumo_gap.py` | PFPモデルの性能評価 |
 | `08_compare_plot_homolumo_gap.py` | baseline vs PFP+BO の比較プロット作成（results/の図を生成） |
 
-グラフ構築・学習スクリプトは他のtmQM物性（μ, εHOMO, εLUMO, Metal_q）と共通の構造（同一スクリプト群を物性ごとにコピーして利用）です。
+グラフ構築・学習スクリプトは他のtmQM物性(μ, εHOMO, εLUMO, Metal_q)と共通の構造（同一スクリプト群を物性ごとにコピーして利用）です。

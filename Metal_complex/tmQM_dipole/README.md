@@ -2,7 +2,7 @@
 
 **対象物性**: 双極子モーメント μ (D)
 **データセット**: tmQM（遷移金属錯体、約86,000錯体、TPSSh-D3BJ/def2-SVP、GFN2-xTB構造最適化）
-**手法**: EGNN（baseline） vs EGNN×PFP記述子
+**手法**: EGNN(baseline) vs EGNN×PFP記述子
 
 ## 結果サマリ
 
@@ -36,7 +36,7 @@ tmQM_dipole/
 | ファイル | 役割 |
 |---|---|
 | `01_import_xyz.py` | tmQM公式xyzファイルから中性一重項構造を抽出 |
-| `02_make_graph_dipole.py` | baseline/PFP両方のグラフ（PyG Data）を構築 |
+| `02_make_graph_dipole.py` | baseline/PFP両方のグラフ(PyG Data)を構築 |
 | `03_train_egnn_pfp_dipole_v1.py` | EGNN×PFP 学習（PFP記述子のみ付加、BOなし版） |
 | `04_train_egnn_baseline_dipole.py` | EGNN baseline 学習 |
 | `05_import_bond_order.py` | GFN2-xTB Wiberg bond order ファイルの読み込み |
